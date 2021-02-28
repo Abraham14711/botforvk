@@ -1,2 +1,2 @@
-worker: bot for vk.py
+worker: botforvk.py
 

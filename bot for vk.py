@@ -17,7 +17,7 @@ key.add_button('Общая информация о ПГУТИ')
 key.add_line()
 key.add_button('Новости и мероприятия')
 
-token = "c1b87e8d5b6df8ac6542cffef9cd30d80969be9cc78ab64c9f197092393959452ccff513d2b0793d45a0f"
+token = maintoken
 image ='C:/test/Снимок экрана 2021-02-26 001435 (1).jpg'
 authorize = vk_api.VkApi(token=token)
 longpoll = VkLongPoll(authorize)
